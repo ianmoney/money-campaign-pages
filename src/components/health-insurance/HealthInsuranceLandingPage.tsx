@@ -16,7 +16,7 @@ function MinimalHeader() {
   return (
     <header className={styles.header}>
       <div className={styles.headerInner}>
-        <a href="https://www.money.com.au/" aria-label="Money.com.au home">
+        <div className={styles.headerBrand}>
           <Image
             className={styles.headerLogo}
             src="/money-logo.svg"
@@ -25,7 +25,7 @@ function MinimalHeader() {
             height={28}
             priority
           />
-        </a>
+        </div>
       </div>
     </header>
   );
@@ -42,8 +42,8 @@ function Hero() {
       </span>
       <div className={styles.heroInner}>
         <h1 id="health-hero-title" className={styles.heroTitle}>
-          <span>SEE WHAT YOU COULD SAVE</span>
-          <span className={styles.heroTitleSecondLine}>ON HEALTH INSURANCE</span>
+          <span>SEE HOW MUCH YOU COULD SAVE</span>
+          <span className={styles.heroTitleSecondLine}> ON YOUR HEALTH INSURANCE</span>
         </h1>
         <p className={styles.heroCopy}>{healthInsuranceContent.supportingCopy}</p>
         <ul className={styles.benefits} aria-label="Comparison benefits">
@@ -72,8 +72,8 @@ function ExpertHeadshots() {
       <Image
         src={`${ASSET_ROOT}/people/health-experts-ribbon.png`}
         alt=""
-        width={107}
-        height={45}
+        width={214}
+        height={90}
         aria-hidden="true"
       />
     </span>

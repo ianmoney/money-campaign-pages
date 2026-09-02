@@ -4,7 +4,7 @@ import { HealthInsuranceLandingPage } from "@/components/health-insurance";
 export const metadata: Metadata = {
   title: "Compare Health Insurance | Money.com.au",
   description:
-    "Compare personalised health insurance prices and cover options from 11+ providers.",
+    "Compare personalised prices and cover options across 240 policies from 11+ providers.",
   robots: {
     index: false,
     follow: false,

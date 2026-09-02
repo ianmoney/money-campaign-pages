@@ -64,10 +64,8 @@
   padding: 0 68px;
 }
 
-.headerInner a {
+.headerBrand {
   display: inline-flex;
-  min-width: 116px;
-  min-height: 44px;
   align-items: center;
 }
 
@@ -99,7 +97,7 @@
 
 .heroTitle {
   display: flex;
-  max-width: 790px;
+  max-width: 1000px;
   margin: 0;
   flex-direction: column;
   align-items: center;
@@ -438,24 +436,35 @@
 }
 
 .compareButton {
-  min-width: 128px;
-  min-height: 44px;
+  display: inline-flex;
+  width: min(304px, 100%);
+  min-height: 88px;
   margin-top: 14px;
-  padding: 11px 21px;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  padding: 18px 28px;
   border: 0;
-  border-radius: 999px;
+  border-radius: 48px;
   color: white;
-  background: #006b7e;
+  background: #4700ef;
   cursor: pointer;
-  font: 600 13px/1 "Money Messina", Helvetica, Arial, sans-serif;
+  font: 900 30px/1 "Money Messina", Helvetica, Arial, sans-serif;
 }
 
 .compareButton:hover {
-  background: #00596d;
+  background: #3f00de;
+}
+
+.compareButtonChevron {
+  width: 18px;
+  height: 18px;
+  border-top: 4px solid currentColor;
+  border-left: 4px solid currentColor;
+  transform: rotate(45deg) translate(3px, 3px);
 }
 
 .compareButton:focus-visible,
-.headerInner a:focus-visible,
 .footer a:focus-visible {
   outline: 3px solid var(--electric-blue);
   outline-offset: 3px;
@@ -570,14 +579,26 @@
   }
 
   .benefits {
+    width: 100%;
     max-width: 360px;
     margin-top: 22px;
-    gap: 8px;
+    flex-wrap: nowrap;
+    gap: 5px;
   }
 
   .benefits li {
     min-height: 36px;
-    font-size: 12px;
+    gap: 5px;
+    padding: 6px 7px 6px 5px;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .benefits li span {
+    width: 15px;
+    height: 15px;
+    flex-basis: 15px;
+    font-size: 10px;
   }
 
   .formPanel {
@@ -694,9 +715,9 @@
   }
 
   .compareButton {
-    width: 100%;
-    min-height: 48px;
-    font-size: 15px;
+    width: min(304px, 100%);
+    min-height: 88px;
+    font-size: 30px;
   }
 
   .footer {

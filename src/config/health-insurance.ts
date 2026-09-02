@@ -1,8 +1,8 @@
 export const healthInsuranceContent = {
-  heading: "SEE WHAT YOU COULD SAVE ON HEALTH INSURANCE",
+  heading: "SEE HOW MUCH YOU COULD SAVE ON YOUR HEALTH INSURANCE",
   supportingCopy:
-    "Compare personalised prices and cover options from 11+ providers.",
-  benefits: ["Free to compare", "No obligation", "Takes 2 minutes"],
+    "Compare personalised prices and cover options across 240 policies from 11+ providers.",
+  benefits: ["100% Aussie staff", "No markups", "Obligation free"],
   trust: {
     rating: "Excellent 4.8 out of 5",
     provider: "Trustpilot",

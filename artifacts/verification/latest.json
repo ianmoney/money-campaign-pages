@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "route": "/health-insurance",
-  "baseURL": "http://127.0.0.1:3100/",
-  "startedAt": "2026-09-02T10:11:51.199Z",
-  "finishedAt": "2026-09-02T10:11:56.952Z",
+  "baseURL": "http://127.0.0.1:3101/",
+  "startedAt": "2026-09-02T16:15:39.073Z",
+  "finishedAt": "2026-09-02T16:15:44.714Z",
   "passed": true,
   "summary": {
     "viewportCount": 6,
@@ -21,8 +21,8 @@
       "name": "desktop-1440",
       "width": 1440,
       "height": 1000,
-      "url": "http://127.0.0.1:3100//health-insurance",
-      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/desktop-1440.png",
+      "url": "http://127.0.0.1:3101//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-edit/artifacts/verification/screenshots/desktop-1440.png",
       "consoleMessages": [],
       "pageErrors": [],
       "failedRequests": [],
@@ -38,7 +38,7 @@
         },
         "document": {
           "scrollWidth": 1440,
-          "scrollHeight": 2048
+          "scrollHeight": 2202
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -74,7 +74,7 @@
           "x": 355,
           "y": 367.8125,
           "width": 730,
-          "height": 500,
+          "height": 657.828125,
           "overflowX": "visible",
           "overflowY": "visible",
           "iframe": null
@@ -87,8 +87,8 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1048,
-        "scrollAfterActivation": 118,
+        "scrollBeforeActivation": 1202,
+        "scrollAfterActivation": 197,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -109,8 +109,8 @@
       "name": "reference-1117",
       "width": 1117,
       "height": 900,
-      "url": "http://127.0.0.1:3100//health-insurance",
-      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/reference-1117.png",
+      "url": "http://127.0.0.1:3101//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-edit/artifacts/verification/screenshots/reference-1117.png",
       "consoleMessages": [],
       "pageErrors": [],
       "failedRequests": [],
@@ -126,7 +126,7 @@
         },
         "document": {
           "scrollWidth": 1117,
-          "scrollHeight": 2048
+          "scrollHeight": 2202
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -162,7 +162,7 @@
           "x": 193.5,
           "y": 367.8125,
           "width": 730,
-          "height": 500,
+          "height": 657.828125,
           "overflowX": "visible",
           "overflowY": "visible",
           "iframe": null
@@ -175,8 +175,8 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1148,
-        "scrollAfterActivation": 168,
+        "scrollBeforeActivation": 1302,
+        "scrollAfterActivation": 247,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -197,8 +197,8 @@
       "name": "laptop-1024",
       "width": 1024,
       "height": 900,
-      "url": "http://127.0.0.1:3100//health-insurance",
-      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/laptop-1024.png",
+      "url": "http://127.0.0.1:3101//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-edit/artifacts/verification/screenshots/laptop-1024.png",
       "consoleMessages": [],
       "pageErrors": [],
       "failedRequests": [],
@@ -214,7 +214,7 @@
         },
         "document": {
           "scrollWidth": 1024,
-          "scrollHeight": 2090
+          "scrollHeight": 2244
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -250,7 +250,7 @@
           "x": 147,
           "y": 367.8125,
           "width": 730,
-          "height": 500,
+          "height": 657.828125,
           "overflowX": "visible",
           "overflowY": "visible",
           "iframe": null
@@ -263,8 +263,8 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1190,
-        "scrollAfterActivation": 168,
+        "scrollBeforeActivation": 1344,
+        "scrollAfterActivation": 247,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -285,8 +285,8 @@
       "name": "tablet-768",
       "width": 768,
       "height": 1024,
-      "url": "http://127.0.0.1:3100//health-insurance",
-      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/tablet-768.png",
+      "url": "http://127.0.0.1:3101//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-edit/artifacts/verification/screenshots/tablet-768.png",
       "consoleMessages": [],
       "pageErrors": [],
       "failedRequests": [],
@@ -302,7 +302,7 @@
         },
         "document": {
           "scrollWidth": 768,
-          "scrollHeight": 2220
+          "scrollHeight": 2403
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -330,15 +330,31 @@
             "left": 690.74,
             "right": 779,
             "width": 88.26
+          },
+          {
+            "tag": "h1",
+            "id": "health-hero-title",
+            "className": "health-insurance-module__sQabTW__heroTitle",
+            "left": -1.38,
+            "right": 769.4,
+            "width": 770.78
+          },
+          {
+            "tag": "span",
+            "id": null,
+            "className": null,
+            "left": -1.38,
+            "right": 769.4,
+            "width": 770.78
           }
         ],
         "missingImages": [],
         "form": {
           "found": true,
           "x": 19,
-          "y": 353.25,
+          "y": 375.75,
           "width": 730,
-          "height": 500,
+          "height": 657.828125,
           "overflowX": "visible",
           "overflowY": "visible",
           "iframe": null
@@ -351,8 +367,8 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1196,
-        "scrollAfterActivation": 91,
+        "scrollBeforeActivation": 1379,
+        "scrollAfterActivation": 193,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -373,8 +389,8 @@
       "name": "mobile-390",
       "width": 390,
       "height": 844,
-      "url": "http://127.0.0.1:3100//health-insurance",
-      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/mobile-390.png",
+      "url": "http://127.0.0.1:3101//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-edit/artifacts/verification/screenshots/mobile-390.png",
       "consoleMessages": [],
       "pageErrors": [],
       "failedRequests": [],
@@ -390,7 +406,7 @@
         },
         "document": {
           "scrollWidth": 390,
-          "scrollHeight": 3475
+          "scrollHeight": 3690
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -432,9 +448,9 @@
         "form": {
           "found": true,
           "x": 17,
-          "y": 460.84375,
+          "y": 437.640625,
           "width": 356,
-          "height": 500,
+          "height": 702.1875,
           "overflowX": "visible",
           "overflowY": "visible",
           "iframe": null
@@ -447,8 +463,8 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1798,
-        "scrollAfterActivation": 289,
+        "scrollBeforeActivation": 1993,
+        "scrollAfterActivation": 369,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -469,8 +485,8 @@
       "name": "mobile-360",
       "width": 360,
       "height": 800,
-      "url": "http://127.0.0.1:3100//health-insurance",
-      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/mobile-360.png",
+      "url": "http://127.0.0.1:3101//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-edit/artifacts/verification/screenshots/mobile-360.png",
       "consoleMessages": [],
       "pageErrors": [],
       "failedRequests": [],
@@ -486,7 +502,7 @@
         },
         "document": {
           "scrollWidth": 360,
-          "scrollHeight": 3695
+          "scrollHeight": 3896
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -528,9 +544,9 @@
         "form": {
           "found": true,
           "x": 17,
-          "y": 444.34375,
+          "y": 421.140625,
           "width": 326,
-          "height": 513.75,
+          "height": 702.1875,
           "overflowX": "visible",
           "overflowY": "visible",
           "iframe": null
@@ -543,8 +559,8 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1984,
-        "scrollAfterActivation": 303,
+        "scrollBeforeActivation": 2165,
+        "scrollAfterActivation": 379,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,

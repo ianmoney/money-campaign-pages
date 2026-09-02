@@ -52,7 +52,7 @@ The approved Money page serves Messina Sans Regular, SemiBold, Black, Condensed 
 
 ## Approved content captured from Money.com.au
 
-- Headline: `SEE WHAT YOU COULD SAVE ON HEALTH INSURANCE`.
+- Original reference headline: `SEE WHAT YOU COULD SAVE ON HEALTH INSURANCE`.
 - Supporting copy: `Compare personalised prices and cover options from 11+ providers.`
 - Provider list and order: ahm, Australian Seniors, Australian Unity, Bupa, HBF, HCF, HIF, Hunter Health Insurance, nib, Real Insurance, see-u by HBF.
 - Testimonial headline: `Chris is saving $150 per month after comparing health insurance with Money.com.au`.

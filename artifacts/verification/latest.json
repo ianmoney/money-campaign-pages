@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "route": "/health-insurance",
   "baseURL": "http://127.0.0.1:3101/",
-  "startedAt": "2026-09-02T16:23:16.478Z",
-  "finishedAt": "2026-09-02T16:23:22.070Z",
+  "startedAt": "2026-09-02T16:33:34.732Z",
+  "finishedAt": "2026-09-02T16:33:40.374Z",
   "passed": true,
   "summary": {
     "viewportCount": 6,
@@ -126,7 +126,7 @@
         },
         "document": {
           "scrollWidth": 1117,
-          "scrollHeight": 2183
+          "scrollHeight": 2196
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -175,7 +175,7 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1283,
+        "scrollBeforeActivation": 1296,
         "scrollAfterActivation": 247,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
@@ -214,7 +214,7 @@
         },
         "document": {
           "scrollWidth": 1024,
-          "scrollHeight": 2225
+          "scrollHeight": 2239
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -263,7 +263,7 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1325,
+        "scrollBeforeActivation": 1339,
         "scrollAfterActivation": 247,
         "activeElement": "div",
         "activeElementId": "health-quote-form",

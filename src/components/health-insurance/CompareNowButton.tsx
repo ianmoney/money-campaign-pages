@@ -30,7 +30,6 @@ export function CompareNowButton() {
       onClick={handleClick}
     >
       Compare now
-      <span className={styles.compareButtonChevron} aria-hidden="true" />
     </button>
   );
 }

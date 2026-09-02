@@ -36,6 +36,7 @@
   --near-black: #0e0d0f;
   --content-secondary: #464547;
   --positive: #1ac057;
+  --desktop-content-rail: min(1000px, calc(100vw - 150px));
   width: 100%;
   min-width: 0;
   overflow: clip;
@@ -457,14 +458,6 @@
   background: #3f00de;
 }
 
-.compareButtonChevron {
-  width: 11px;
-  height: 11px;
-  border-top: 3px solid currentColor;
-  border-left: 3px solid currentColor;
-  transform: rotate(45deg) translate(2px, 2px);
-}
-
 .compareButton:focus-visible,
 .footer a:focus-visible {
   outline: 3px solid var(--electric-blue);
@@ -516,6 +509,16 @@
   color: #c4c1c7;
   text-decoration: underline;
   text-underline-offset: 1px;
+}
+
+@media (min-width: 1024px) {
+  .heroTitle,
+  .providers,
+  .testimonial,
+  .footerInner {
+    width: var(--desktop-content-rail);
+    max-width: var(--desktop-content-rail);
+  }
 }
 
 @media (max-width: 1023px) {

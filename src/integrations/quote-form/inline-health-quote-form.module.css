@@ -1,0 +1,312 @@
+.shell {
+  width: 100%;
+  color: #0e0d0f;
+  background: #fafafa;
+  font-family: "Money Messina", Helvetica, Arial, sans-serif;
+}
+
+.shell *,
+.shell *::before,
+.shell *::after {
+  box-sizing: border-box;
+}
+
+.progressRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 24px clamp(20px, 6vw, 48px) 8px;
+  color: #464547;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.progressTrack {
+  height: 6px;
+  margin: 0 clamp(20px, 6vw, 48px);
+  overflow: hidden;
+  border-radius: 99px;
+  background: #e7e1f8;
+}
+
+.progressTrack span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: #3f00de;
+  transition: width 0.25s ease;
+}
+
+.card {
+  padding: 36px clamp(20px, 6vw, 48px) 42px;
+}
+
+.card fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.card legend {
+  width: 100%;
+  padding: 0;
+  color: #0e0d0f;
+  font-family: "Money Messina Condensed", Impact, sans-serif;
+  font-size: clamp(30px, 6vw, 42px);
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.02;
+  text-align: center;
+}
+
+.card legend:focus {
+  outline: 0;
+}
+
+.hint {
+  margin: 10px 0 26px;
+  color: #69656e;
+  font-size: 16px;
+  text-align: center;
+}
+
+.optionGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.option {
+  display: grid;
+  min-width: 0;
+  min-height: 76px;
+  place-items: center;
+  padding: 14px 12px;
+  border: 2px solid #dcd3f7;
+  border-radius: 12px;
+  color: #2d176f;
+  background: #f6f3fc;
+  cursor: pointer;
+  font: inherit;
+  font-size: clamp(16px, 4vw, 20px);
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.option:hover {
+  border-color: #3f00de;
+  transform: translateY(-1px);
+}
+
+.option:focus-visible,
+.submitButton:focus-visible,
+.smallBack:focus-visible,
+.decadeBack:focus-visible,
+.consent a:focus-visible {
+  outline: 4px solid #85e8ff;
+  outline-offset: 3px;
+}
+
+.optionSelected {
+  border-color: #3f00de;
+  color: white;
+  background: #3f00de;
+}
+
+.fields {
+  display: grid;
+  gap: 20px;
+  margin-top: 26px;
+}
+
+.fields label {
+  display: grid;
+  gap: 8px;
+  color: #0e0d0f;
+  font-weight: 800;
+}
+
+.fields label > span {
+  font-size: 16px;
+}
+
+.fields input {
+  width: 100%;
+  min-height: 58px;
+  padding: 12px 15px;
+  border: 2px solid #d8d5dc;
+  border-radius: 10px;
+  color: #0e0d0f;
+  background: white;
+  font: inherit;
+}
+
+.fields input:hover {
+  border-color: #b9aaf1;
+}
+
+.fields input:focus {
+  border-color: #3f00de;
+  outline: 4px solid #85e8ff;
+  outline-offset: 1px;
+}
+
+.fields small {
+  color: #69656e;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.nameRow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.consent {
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  gap: 12px;
+  align-items: start;
+  padding: 16px;
+  border: 1px solid #d8d5dc;
+  border-radius: 12px;
+  background: #faf9fc;
+  font-size: 15px;
+}
+
+.consent input {
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  margin: 0;
+  accent-color: #3f00de;
+}
+
+.consent label {
+  display: block;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.consent a {
+  color: #3f00de;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.submitButton {
+  display: flex;
+  width: 100%;
+  min-height: 60px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border: 2px solid #3f00de;
+  border-radius: 999px;
+  color: white;
+  background: #3f00de;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 900;
+}
+
+.submitButton:hover {
+  border-color: #2d009e;
+  background: #2d009e;
+}
+
+.submitButton:disabled,
+.smallBack:disabled {
+  color: #8a878f;
+  background: #efedf2;
+  cursor: not-allowed;
+}
+
+.smallBack,
+.decadeBack {
+  min-height: 44px;
+  margin: -16px 0 14px;
+  padding: 4px 0;
+  border: 0;
+  color: #3f00de;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.decadeBack {
+  display: block;
+  margin: 0 auto 16px;
+}
+
+.errorRegion {
+  min-height: 0;
+}
+
+.errorBox {
+  margin: 22px 0 0;
+  padding: 14px 16px;
+  border-left: 5px solid #dc2828;
+  border-radius: 8px;
+  color: #7a1717;
+  background: #fff0f0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding-top: 32px;
+  }
+
+  .option {
+    min-height: 82px;
+    padding-inline: 8px;
+  }
+
+  .nameRow {
+    gap: 10px;
+  }
+
+  .nameRow input {
+    padding-inline: 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  .progressRow {
+    padding-inline: 16px;
+  }
+
+  .progressTrack {
+    margin-inline: 16px;
+  }
+
+  .card {
+    padding-inline: 16px;
+  }
+
+  .optionGrid {
+    gap: 9px;
+  }
+
+  .option {
+    min-height: 78px;
+    font-size: 15px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .option,
+  .progressTrack span {
+    transition: none;
+  }
+}

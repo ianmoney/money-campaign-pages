@@ -31,7 +31,7 @@ Only the integrator changes root configuration. Builders do not edit another bui
 
 - `HealthInsurancePage` composes sections and does not inspect form internals.
 - `Hero` owns the title, benefits and the stable form-panel geometry.
-- `QuoteFormEmbed` fills that geometry with either a same-repository component, a configured iframe, a development/screenshot placeholder, or a production-safe unavailable state.
+- `QuoteFormEmbed` fills that geometry with the same-repository inline quiz by default, a configured iframe when explicitly selected, a development/screenshot placeholder, or a production-safe unavailable state.
 - `LandingAnalytics` emits only the approved page-level events.
 - `CompareNowButton` scrolls the stable form anchor into view, focuses the iframe/container without trapping focus, and emits the CTA event.
 
@@ -128,4 +128,4 @@ The route is additive within the existing Next.js App Router application and tar
 
 ## External dependency
 
-Production funnel completion requires either an approved same-repository form component implementing the callback contract or an approved HTTPS `NEXT_PUBLIC_HEALTH_FORM_URL` plus exact origin allowlist. Until supplied and tested, the landing page is integration-ready but the production funnel is not functional.
+The landing page includes an approved same-repository form component for the current no-OTP staging flow. If the form is moved to a separate application, production requires an approved HTTPS `NEXT_PUBLIC_HEALTH_FORM_URL` plus exact origin allowlist. The optional `NEXT_PUBLIC_HEALTH_LEAD_ENDPOINT` receives a validated lead payload when configured; without it, the current staging flow validates locally and redirects without sending details.

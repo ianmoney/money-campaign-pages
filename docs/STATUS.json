@@ -53,11 +53,11 @@
     "playwrightPassed": true
   },
   "formIntegration": {
-    "status": "adapter_ready_external_form_missing",
+    "status": "inline_form_no_otp_staging",
     "productionFunnelFunctional": false,
-    "requiredDependency": "Provide an approved same-repository form component or NEXT_PUBLIC_HEALTH_FORM_URL with exact NEXT_PUBLIC_HEALTH_FORM_ALLOWED_ORIGINS values.",
+    "requiredDependency": "Configure and test NEXT_PUBLIC_HEALTH_LEAD_ENDPOINT (or an approved external form) before treating the flow as production lead capture.",
     "messageContract": "docs/FORM_INTEGRATION.md",
-    "developmentPlaceholder": true,
+    "developmentPlaceholder": false,
     "productionFakeForm": false
   },
   "deployment": {
@@ -80,7 +80,7 @@
     {
       "priority": 2,
       "category": "externalDependency",
-      "issue": "Connect and test the separately owned health questionnaire through the documented adapter contract."
+      "issue": "Connect and test the lead endpoint; mobile OTP remains intentionally disabled for this staging flow."
     }
   ]
 }

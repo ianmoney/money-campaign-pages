@@ -8,6 +8,8 @@ The landing page owns only the stable panel and lifecycle boundary. It does not 
 
 Pass a React component to `QuoteFormEmbed.component`. The component receives `onReady`, `onStart`, `onComplete` and `onError`. Callbacks have no answer arguments.
 
+The landing page now uses `InlineHealthQuoteForm` as its same-repository component. It keeps the quiz inside the landing-page panel, advances choice questions on click, accepts birth years from the 1940s through the 2000s, validates name/email/Australian mobile formats and redirects to the approved Money thank-you URL after submission. Mobile OTP is intentionally not enabled yet.
+
 ### Separate Vercel application
 
 Set both:
@@ -19,7 +21,7 @@ NEXT_PUBLIC_HEALTH_FORM_ALLOWED_ORIGINS=https://approved-form-host.example
 
 The URL must be HTTPS and its exact origin must be in the comma-separated allowlist. Wildcards and arbitrary origins are not supported. The iframe uses `allow-forms allow-scripts allow-same-origin`, requests no camera/microphone permissions, has a descriptive title, a strict referrer policy and a fallback link.
 
-Production without either integration renders an honest unavailable state. Development and builds with `NEXT_PUBLIC_HEALTH_FORM_SCREENSHOT_MODE=true` render a deterministic, non-interactive placeholder solely for layout testing.
+If the inline component is removed and no approved iframe configuration is supplied, production renders an honest unavailable state. Development and builds with `NEXT_PUBLIC_HEALTH_FORM_SCREENSHOT_MODE=true` render a deterministic, non-interactive placeholder solely for layout testing.
 
 ## Child-to-parent message contract
 

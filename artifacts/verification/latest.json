@@ -1,0 +1,565 @@
+{
+  "schemaVersion": 1,
+  "route": "/health-insurance",
+  "baseURL": "http://127.0.0.1:3100/",
+  "startedAt": "2026-09-02T10:11:51.199Z",
+  "finishedAt": "2026-09-02T10:11:56.952Z",
+  "passed": true,
+  "summary": {
+    "viewportCount": 6,
+    "passedViewportCount": 6,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "pageErrors": 0,
+    "firstPartyRequestFailures": 0,
+    "overflowingViewports": 0,
+    "missingImages": 0,
+    "ctaFailures": 0
+  },
+  "results": [
+    {
+      "name": "desktop-1440",
+      "width": 1440,
+      "height": 1000,
+      "url": "http://127.0.0.1:3100//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/desktop-1440.png",
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "readiness": {
+        "formReady": true,
+        "fontsAndImagesReady": true
+      },
+      "layout": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "document": {
+          "scrollWidth": 1440,
+          "scrollHeight": 2048
+        },
+        "horizontalOverflow": false,
+        "horizontalOverflowPixels": 0,
+        "overflowingElements": [
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroCircle",
+            "left": -114,
+            "right": 91,
+            "width": 205
+          },
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroMark",
+            "left": 1099.99,
+            "right": 1511.01,
+            "width": 411.03
+          },
+          {
+            "tag": "i",
+            "id": null,
+            "className": null,
+            "left": 1362.74,
+            "right": 1451,
+            "width": 88.26
+          }
+        ],
+        "missingImages": [],
+        "form": {
+          "found": true,
+          "x": 355,
+          "y": 367.8125,
+          "width": 730,
+          "height": 500,
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "iframe": null
+        }
+      },
+      "interaction": {
+        "passed": true,
+        "ctaFound": true,
+        "ctaReachedByTab": true,
+        "ctaActivatedByKeyboard": true,
+        "formFocused": true,
+        "formInViewport": true,
+        "scrollBeforeActivation": 1048,
+        "scrollAfterActivation": 118,
+        "activeElement": "div",
+        "activeElementId": "health-quote-form",
+        "adjacentKeyboardTargetFound": true,
+        "tabStops": [
+          {
+            "tag": "button",
+            "id": null,
+            "text": "Compare now",
+            "href": null
+          }
+        ],
+        "errors": []
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "reference-1117",
+      "width": 1117,
+      "height": 900,
+      "url": "http://127.0.0.1:3100//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/reference-1117.png",
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "readiness": {
+        "formReady": true,
+        "fontsAndImagesReady": true
+      },
+      "layout": {
+        "viewport": {
+          "width": 1117,
+          "height": 900
+        },
+        "document": {
+          "scrollWidth": 1117,
+          "scrollHeight": 2048
+        },
+        "horizontalOverflow": false,
+        "horizontalOverflowPixels": 0,
+        "overflowingElements": [
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroCircle",
+            "left": -114,
+            "right": 91,
+            "width": 205
+          },
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroMark",
+            "left": 776.99,
+            "right": 1188.01,
+            "width": 411.03
+          },
+          {
+            "tag": "i",
+            "id": null,
+            "className": null,
+            "left": 1039.74,
+            "right": 1128,
+            "width": 88.26
+          }
+        ],
+        "missingImages": [],
+        "form": {
+          "found": true,
+          "x": 193.5,
+          "y": 367.8125,
+          "width": 730,
+          "height": 500,
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "iframe": null
+        }
+      },
+      "interaction": {
+        "passed": true,
+        "ctaFound": true,
+        "ctaReachedByTab": true,
+        "ctaActivatedByKeyboard": true,
+        "formFocused": true,
+        "formInViewport": true,
+        "scrollBeforeActivation": 1148,
+        "scrollAfterActivation": 168,
+        "activeElement": "div",
+        "activeElementId": "health-quote-form",
+        "adjacentKeyboardTargetFound": true,
+        "tabStops": [
+          {
+            "tag": "button",
+            "id": null,
+            "text": "Compare now",
+            "href": null
+          }
+        ],
+        "errors": []
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "laptop-1024",
+      "width": 1024,
+      "height": 900,
+      "url": "http://127.0.0.1:3100//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/laptop-1024.png",
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "readiness": {
+        "formReady": true,
+        "fontsAndImagesReady": true
+      },
+      "layout": {
+        "viewport": {
+          "width": 1024,
+          "height": 900
+        },
+        "document": {
+          "scrollWidth": 1024,
+          "scrollHeight": 2090
+        },
+        "horizontalOverflow": false,
+        "horizontalOverflowPixels": 0,
+        "overflowingElements": [
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroCircle",
+            "left": -114,
+            "right": 91,
+            "width": 205
+          },
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroMark",
+            "left": 683.99,
+            "right": 1095.01,
+            "width": 411.03
+          },
+          {
+            "tag": "i",
+            "id": null,
+            "className": null,
+            "left": 946.74,
+            "right": 1035,
+            "width": 88.26
+          }
+        ],
+        "missingImages": [],
+        "form": {
+          "found": true,
+          "x": 147,
+          "y": 367.8125,
+          "width": 730,
+          "height": 500,
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "iframe": null
+        }
+      },
+      "interaction": {
+        "passed": true,
+        "ctaFound": true,
+        "ctaReachedByTab": true,
+        "ctaActivatedByKeyboard": true,
+        "formFocused": true,
+        "formInViewport": true,
+        "scrollBeforeActivation": 1190,
+        "scrollAfterActivation": 168,
+        "activeElement": "div",
+        "activeElementId": "health-quote-form",
+        "adjacentKeyboardTargetFound": true,
+        "tabStops": [
+          {
+            "tag": "button",
+            "id": null,
+            "text": "Compare now",
+            "href": null
+          }
+        ],
+        "errors": []
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "tablet-768",
+      "width": 768,
+      "height": 1024,
+      "url": "http://127.0.0.1:3100//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/tablet-768.png",
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "readiness": {
+        "formReady": true,
+        "fontsAndImagesReady": true
+      },
+      "layout": {
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "document": {
+          "scrollWidth": 768,
+          "scrollHeight": 2220
+        },
+        "horizontalOverflow": false,
+        "horizontalOverflowPixels": 0,
+        "overflowingElements": [
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroCircle",
+            "left": -114,
+            "right": 91,
+            "width": 205
+          },
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroMark",
+            "left": 427.99,
+            "right": 839.01,
+            "width": 411.03
+          },
+          {
+            "tag": "i",
+            "id": null,
+            "className": null,
+            "left": 690.74,
+            "right": 779,
+            "width": 88.26
+          }
+        ],
+        "missingImages": [],
+        "form": {
+          "found": true,
+          "x": 19,
+          "y": 353.25,
+          "width": 730,
+          "height": 500,
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "iframe": null
+        }
+      },
+      "interaction": {
+        "passed": true,
+        "ctaFound": true,
+        "ctaReachedByTab": true,
+        "ctaActivatedByKeyboard": true,
+        "formFocused": true,
+        "formInViewport": true,
+        "scrollBeforeActivation": 1196,
+        "scrollAfterActivation": 91,
+        "activeElement": "div",
+        "activeElementId": "health-quote-form",
+        "adjacentKeyboardTargetFound": true,
+        "tabStops": [
+          {
+            "tag": "button",
+            "id": null,
+            "text": "Compare now",
+            "href": null
+          }
+        ],
+        "errors": []
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "mobile-390",
+      "width": 390,
+      "height": 844,
+      "url": "http://127.0.0.1:3100//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/mobile-390.png",
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "readiness": {
+        "formReady": true,
+        "fontsAndImagesReady": true
+      },
+      "layout": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "document": {
+          "scrollWidth": 390,
+          "scrollHeight": 3475
+        },
+        "horizontalOverflow": false,
+        "horizontalOverflowPixels": 0,
+        "overflowingElements": [
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroCircle",
+            "left": -110,
+            "right": 60,
+            "width": 170
+          },
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroMark",
+            "left": 223.09,
+            "right": 551.91,
+            "width": 328.82
+          },
+          {
+            "tag": "i",
+            "id": null,
+            "className": null,
+            "left": 302.53,
+            "right": 469.5,
+            "width": 166.97
+          },
+          {
+            "tag": "i",
+            "id": null,
+            "className": null,
+            "left": 433.29,
+            "right": 503.9,
+            "width": 70.61
+          }
+        ],
+        "missingImages": [],
+        "form": {
+          "found": true,
+          "x": 17,
+          "y": 460.84375,
+          "width": 356,
+          "height": 500,
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "iframe": null
+        }
+      },
+      "interaction": {
+        "passed": true,
+        "ctaFound": true,
+        "ctaReachedByTab": true,
+        "ctaActivatedByKeyboard": true,
+        "formFocused": true,
+        "formInViewport": true,
+        "scrollBeforeActivation": 1798,
+        "scrollAfterActivation": 289,
+        "activeElement": "div",
+        "activeElementId": "health-quote-form",
+        "adjacentKeyboardTargetFound": true,
+        "tabStops": [
+          {
+            "tag": "button",
+            "id": null,
+            "text": "Compare now",
+            "href": null
+          }
+        ],
+        "errors": []
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "mobile-360",
+      "width": 360,
+      "height": 800,
+      "url": "http://127.0.0.1:3100//health-insurance",
+      "screenshot": "/private/tmp/money-campaign-pages-local/artifacts/verification/screenshots/mobile-360.png",
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "readiness": {
+        "formReady": true,
+        "fontsAndImagesReady": true
+      },
+      "layout": {
+        "viewport": {
+          "width": 360,
+          "height": 800
+        },
+        "document": {
+          "scrollWidth": 360,
+          "scrollHeight": 3695
+        },
+        "horizontalOverflow": false,
+        "horizontalOverflowPixels": 0,
+        "overflowingElements": [
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroCircle",
+            "left": -110,
+            "right": 60,
+            "width": 170
+          },
+          {
+            "tag": "span",
+            "id": null,
+            "className": "health-insurance-module__sQabTW__heroMark",
+            "left": 193.09,
+            "right": 521.91,
+            "width": 328.82
+          },
+          {
+            "tag": "i",
+            "id": null,
+            "className": null,
+            "left": 272.53,
+            "right": 439.5,
+            "width": 166.97
+          },
+          {
+            "tag": "i",
+            "id": null,
+            "className": null,
+            "left": 403.29,
+            "right": 473.9,
+            "width": 70.61
+          }
+        ],
+        "missingImages": [],
+        "form": {
+          "found": true,
+          "x": 17,
+          "y": 444.34375,
+          "width": 326,
+          "height": 513.75,
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "iframe": null
+        }
+      },
+      "interaction": {
+        "passed": true,
+        "ctaFound": true,
+        "ctaReachedByTab": true,
+        "ctaActivatedByKeyboard": true,
+        "formFocused": true,
+        "formInViewport": true,
+        "scrollBeforeActivation": 1984,
+        "scrollAfterActivation": 303,
+        "activeElement": "div",
+        "activeElementId": "health-quote-form",
+        "adjacentKeyboardTargetFound": true,
+        "tabStops": [
+          {
+            "tag": "button",
+            "id": null,
+            "text": "Compare now",
+            "href": null
+          }
+        ],
+        "errors": []
+      },
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "project": "money-campaign-pages",
+  "route": "/health-insurance",
+  "updated": "2026-09-02",
+  "productionLive": false,
+  "overallPass": false,
+  "currentScores": {
+    "visualFidelity": 8.9,
+    "responsiveFidelity": 9.0,
+    "integrationReadiness": 9.1,
+    "accessibilityPerformance": 8.6,
+    "deploymentReliability": 6.0,
+    "weighted": 8.46
+  },
+  "scoreHistory": [
+    {
+      "iteration": 1,
+      "visualFidelity": 8.6,
+      "responsiveFidelity": 8.9,
+      "integrationReadiness": 9.1,
+      "accessibilityPerformance": 8.5,
+      "deploymentReliability": 6.0,
+      "weighted": 8.31,
+      "lowestCategory": "deploymentReliability",
+      "notes": "Independent critic found hero width/colour, form edge and ribbon alignment differences; all local automated checks passed."
+    },
+    {
+      "iteration": 2,
+      "visualFidelity": 8.9,
+      "responsiveFidelity": 9.0,
+      "integrationReadiness": 9.1,
+      "accessibilityPerformance": 8.6,
+      "deploymentReliability": 6.0,
+      "weighted": 8.46,
+      "lowestCategory": "deploymentReliability",
+      "notes": "Critic-directed geometry and colour refinements applied. Local categories pass; production HTTPS evidence remains unavailable."
+    }
+  ],
+  "verification": {
+    "report": "artifacts/verification/latest.json",
+    "requiredViewportsPassed": 6,
+    "requiredViewportCount": 6,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "pageErrors": 0,
+    "firstPartyRequestFailures": 0,
+    "missingImages": 0,
+    "overflowingViewports": 0,
+    "ctaFailures": 0,
+    "productionBuildPassed": true,
+    "targetedLintPassed": true,
+    "playwrightPassed": true
+  },
+  "formIntegration": {
+    "status": "adapter_ready_external_form_missing",
+    "productionFunnelFunctional": false,
+    "requiredDependency": "Provide an approved same-repository form component or NEXT_PUBLIC_HEALTH_FORM_URL with exact NEXT_PUBLIC_HEALTH_FORM_ALLOWED_ORIGINS values.",
+    "messageContract": "docs/FORM_INTEGRATION.md",
+    "developmentPlaceholder": true,
+    "productionFakeForm": false
+  },
+  "deployment": {
+    "vercelAccount": "logged_out",
+    "projectLinked": false,
+    "previewUrl": null,
+    "productionUrl": "https://compare.money.com.au/health-insurance",
+    "productionRouteVerified": false,
+    "dnsStatus": "NXDOMAIN",
+    "sslStatus": "unavailable_until_dns_and_project_linkage",
+    "exactDnsRecords": null,
+    "blocker": "A Vercel-authenticated session and the correct existing project are required before deployment or Vercel-provided DNS records can be obtained safely. The hostname must not be guessed, detached or reassigned."
+  },
+  "openIssues": [
+    {
+      "priority": 1,
+      "category": "deploymentReliability",
+      "issue": "Authenticate Vercel, link the correct existing comparison project, deploy, and verify the production HTTPS route."
+    },
+    {
+      "priority": 2,
+      "category": "externalDependency",
+      "issue": "Connect and test the separately owned health questionnaire through the documented adapter contract."
+    }
+  ]
+}

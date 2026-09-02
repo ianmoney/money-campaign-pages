@@ -87,7 +87,7 @@ const steps: ReadonlyArray<{ id: QuizStep; title: string; hint?: string }> = [
   },
   {
     id: "contact",
-    title: "Enter a few details to access your comparison",
+    title: "Enter a few details to access your offers",
   },
 ];
 
@@ -112,7 +112,7 @@ function validateContact(answers: Answers) {
     return "Enter a valid Australian mobile number, such as 0412 345 678.";
   }
   if (!answers.consentAccepted) {
-    return "Accept the Privacy Policy and Terms of Use before comparing.";
+    return "Accept the terms of use and privacy policy before accessing your offers.";
   }
   return null;
 }
@@ -390,7 +390,7 @@ export function InlineHealthQuoteForm({
             required
             onChange={(event) => update("phone", event.target.value)}
           />
-          <small>Enter a valid Australian mobile number so we can contact you about your comparison.</small>
+          <small>Enter a valid Australian mobile number so we can contact you about your offers.</small>
         </label>
         <div className={styles.consent}>
           <input
@@ -402,7 +402,7 @@ export function InlineHealthQuoteForm({
             onChange={(event) => update("consentAccepted", event.target.checked)}
           />
           <label htmlFor="health-consent-accepted">
-            I agree to the <a href={privacyUrl} target="_blank" rel="noreferrer">Privacy Policy</a> and <a href={termsUrl} target="_blank" rel="noreferrer">Terms of Use</a>.
+            I understand and accept the website <a href={termsUrl} target="_blank" rel="noreferrer">terms of use</a> and <a href={privacyUrl} target="_blank" rel="noreferrer">privacy policy</a>, and that the Health Insurance advice is provided by Money.com.au (ABN 42 626 094 773) with the support of the ItsMyGroup(ABN 85 167 289 965). Both Money.com.au and the ItsMy Group are signatories to the PHIIA code of conduct.
           </label>
         </div>
         <button type="submit" className={styles.submitButton} disabled={submitting}>

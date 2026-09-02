@@ -517,6 +517,13 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 900px) {
+  .heroTitle {
+    font-size: 56px;
+    letter-spacing: -1.2px;
+  }
+}
+
 @media (max-width: 767px) {
   .headerInner {
     padding: 0 20px;

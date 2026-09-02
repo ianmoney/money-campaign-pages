@@ -487,12 +487,26 @@
 }
 
 @media (min-width: 1024px) {
+  .headerInner {
+    width: var(--desktop-content-rail);
+    max-width: var(--desktop-content-rail);
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .heroTitle,
   .providers,
   .testimonial,
   .footerInner {
     width: var(--desktop-content-rail);
     max-width: var(--desktop-content-rail);
+  }
+}
+
+@media (min-width: 1100px) {
+  .heroTitle {
+    font-size: 80px;
+    transform: none;
   }
 }
 

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "route": "/health-insurance",
   "baseURL": "http://127.0.0.1:3101/",
-  "startedAt": "2026-09-02T16:49:11.457Z",
-  "finishedAt": "2026-09-02T16:49:17.015Z",
+  "startedAt": "2026-09-02T16:57:35.558Z",
+  "finishedAt": "2026-09-02T16:57:41.191Z",
   "passed": true,
   "summary": {
     "viewportCount": 6,
@@ -38,7 +38,7 @@
         },
         "document": {
           "scrollWidth": 1440,
-          "scrollHeight": 2183
+          "scrollHeight": 2190
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -64,7 +64,7 @@
         "form": {
           "found": true,
           "x": 355,
-          "y": 367.8125,
+          "y": 375.09375,
           "width": 730,
           "height": 657.828125,
           "overflowX": "visible",
@@ -79,8 +79,8 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1183,
-        "scrollAfterActivation": 117,
+        "scrollBeforeActivation": 1190,
+        "scrollAfterActivation": 124,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -118,7 +118,7 @@
         },
         "document": {
           "scrollWidth": 1117,
-          "scrollHeight": 2196
+          "scrollHeight": 2204
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -144,7 +144,7 @@
         "form": {
           "found": true,
           "x": 193.5,
-          "y": 367.8125,
+          "y": 375.09375,
           "width": 730,
           "height": 657.828125,
           "overflowX": "visible",
@@ -159,8 +159,8 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1296,
-        "scrollAfterActivation": 167,
+        "scrollBeforeActivation": 1304,
+        "scrollAfterActivation": 174,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -480,7 +480,7 @@
         "formFocused": true,
         "formInViewport": true,
         "scrollBeforeActivation": 2143,
-        "scrollAfterActivation": 302,
+        "scrollAfterActivation": 301,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,

@@ -35,11 +35,15 @@ function Hero() {
   return (
     <section className={styles.hero} aria-labelledby="health-hero-title">
       <span className={styles.heroCircle} aria-hidden="true" />
-      <span className={styles.heroMark} aria-hidden="true">
-        <i />
-        <i />
-        <i />
-      </span>
+      <Image
+        className={styles.heroMoneyM}
+        src={`${ASSET_ROOT}/brand/money-m-background.svg`}
+        alt=""
+        aria-hidden="true"
+        width={479}
+        height={370}
+        priority
+      />
       <div className={styles.heroInner}>
         <h1 id="health-hero-title" className={styles.heroTitle}>
           <span>SEE HOW MUCH YOU COULD SAVE</span>

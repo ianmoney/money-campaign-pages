@@ -81,9 +81,7 @@
   min-height: 850px;
   overflow: hidden;
   color: white;
-  background:
-    linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.065) 100%),
-    linear-gradient(108deg, #3f00de 0%, #3f00de 47%, #2a0092 100%);
+  background: linear-gradient(93deg, #3f00de 21.51%, #2d009e 97.91%);
 }
 
 .heroInner {
@@ -191,38 +189,15 @@
   border-radius: 50%;
 }
 
-.heroMark {
+.heroMoneyM {
   position: absolute;
-  top: 38px;
+  z-index: 0;
+  bottom: -80px;
   right: -48px;
-  width: 365px;
-  height: 400px;
-  opacity: 0.17;
-  transform: rotate(-7deg);
-}
-
-.heroMark i {
-  position: absolute;
-  top: 2px;
-  width: 82px;
-  height: 390px;
-  border-radius: 5px;
-  background: #8e59f0;
-  transform: skew(-8deg);
-}
-
-.heroMark i:nth-child(1) {
-  left: 35px;
-  transform: rotate(-18deg) skew(-8deg);
-}
-
-.heroMark i:nth-child(2) {
-  left: 140px;
-  transform: rotate(18deg) skew(-8deg);
-}
-
-.heroMark i:nth-child(3) {
-  left: 244px;
+  width: 60%;
+  height: 368px;
+  opacity: 1;
+  pointer-events: none;
 }
 
 .whiteContent {
@@ -618,12 +593,6 @@
     width: 170px;
     height: 170px;
     border-width: 34px;
-  }
-
-  .heroMark {
-    top: 30px;
-    right: -180px;
-    transform: scale(0.8) rotate(-7deg);
   }
 
   .trustRibbon {

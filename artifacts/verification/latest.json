@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "route": "/health-insurance",
   "baseURL": "http://127.0.0.1:3101/",
-  "startedAt": "2026-09-02T16:33:34.732Z",
-  "finishedAt": "2026-09-02T16:33:40.374Z",
+  "startedAt": "2026-09-02T16:45:59.821Z",
+  "finishedAt": "2026-09-02T16:46:05.408Z",
   "passed": true,
   "summary": {
     "viewportCount": 6,
@@ -52,20 +52,12 @@
             "width": 205
           },
           {
-            "tag": "span",
+            "tag": "img",
             "id": null,
-            "className": "health-insurance-module__sQabTW__heroMark",
-            "left": 1099.99,
-            "right": 1511.01,
-            "width": 411.03
-          },
-          {
-            "tag": "i",
-            "id": null,
-            "className": null,
-            "left": 1362.74,
-            "right": 1451,
-            "width": 88.26
+            "className": "health-insurance-module__sQabTW__heroMoneyM",
+            "left": 624,
+            "right": 1488,
+            "width": 864
           }
         ],
         "missingImages": [],
@@ -88,7 +80,7 @@
         "formFocused": true,
         "formInViewport": true,
         "scrollBeforeActivation": 1183,
-        "scrollAfterActivation": 197,
+        "scrollAfterActivation": 117,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -140,20 +132,12 @@
             "width": 205
           },
           {
-            "tag": "span",
+            "tag": "img",
             "id": null,
-            "className": "health-insurance-module__sQabTW__heroMark",
-            "left": 776.99,
-            "right": 1188.01,
-            "width": 411.03
-          },
-          {
-            "tag": "i",
-            "id": null,
-            "className": null,
-            "left": 1039.74,
-            "right": 1128,
-            "width": 88.26
+            "className": "health-insurance-module__sQabTW__heroMoneyM",
+            "left": 494.81,
+            "right": 1165,
+            "width": 670.19
           }
         ],
         "missingImages": [],
@@ -176,7 +160,7 @@
         "formFocused": true,
         "formInViewport": true,
         "scrollBeforeActivation": 1296,
-        "scrollAfterActivation": 247,
+        "scrollAfterActivation": 167,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -228,20 +212,12 @@
             "width": 205
           },
           {
-            "tag": "span",
+            "tag": "img",
             "id": null,
-            "className": "health-insurance-module__sQabTW__heroMark",
-            "left": 683.99,
-            "right": 1095.01,
-            "width": 411.03
-          },
-          {
-            "tag": "i",
-            "id": null,
-            "className": null,
-            "left": 946.74,
-            "right": 1035,
-            "width": 88.26
+            "className": "health-insurance-module__sQabTW__heroMoneyM",
+            "left": 457.61,
+            "right": 1072,
+            "width": 614.39
           }
         ],
         "missingImages": [],
@@ -264,7 +240,7 @@
         "formFocused": true,
         "formInViewport": true,
         "scrollBeforeActivation": 1339,
-        "scrollAfterActivation": 247,
+        "scrollAfterActivation": 167,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -316,20 +292,12 @@
             "width": 205
           },
           {
-            "tag": "span",
+            "tag": "img",
             "id": null,
-            "className": "health-insurance-module__sQabTW__heroMark",
-            "left": 427.99,
-            "right": 839.01,
-            "width": 411.03
-          },
-          {
-            "tag": "i",
-            "id": null,
-            "className": null,
-            "left": 690.74,
-            "right": 779,
-            "width": 88.26
+            "className": "health-insurance-module__sQabTW__heroMoneyM",
+            "left": 355.2,
+            "right": 816,
+            "width": 460.8
           },
           {
             "tag": "h1",
@@ -368,7 +336,7 @@
         "formFocused": true,
         "formInViewport": true,
         "scrollBeforeActivation": 1335,
-        "scrollAfterActivation": 193,
+        "scrollAfterActivation": 113,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -420,28 +388,12 @@
             "width": 170
           },
           {
-            "tag": "span",
+            "tag": "img",
             "id": null,
-            "className": "health-insurance-module__sQabTW__heroMark",
-            "left": 223.09,
-            "right": 551.91,
-            "width": 328.82
-          },
-          {
-            "tag": "i",
-            "id": null,
-            "className": null,
-            "left": 302.53,
-            "right": 469.5,
-            "width": 166.97
-          },
-          {
-            "tag": "i",
-            "id": null,
-            "className": null,
-            "left": 433.29,
-            "right": 503.9,
-            "width": 70.61
+            "className": "health-insurance-module__sQabTW__heroMoneyM",
+            "left": 204,
+            "right": 438,
+            "width": 234
           }
         ],
         "missingImages": [],
@@ -464,7 +416,7 @@
         "formFocused": true,
         "formInViewport": true,
         "scrollBeforeActivation": 1971,
-        "scrollAfterActivation": 368,
+        "scrollAfterActivation": 290,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -516,28 +468,12 @@
             "width": 170
           },
           {
-            "tag": "span",
+            "tag": "img",
             "id": null,
-            "className": "health-insurance-module__sQabTW__heroMark",
-            "left": 193.09,
-            "right": 521.91,
-            "width": 328.82
-          },
-          {
-            "tag": "i",
-            "id": null,
-            "className": null,
-            "left": 272.53,
-            "right": 439.5,
-            "width": 166.97
-          },
-          {
-            "tag": "i",
-            "id": null,
-            "className": null,
-            "left": 403.29,
-            "right": 473.9,
-            "width": 70.61
+            "className": "health-insurance-module__sQabTW__heroMoneyM",
+            "left": 192,
+            "right": 408,
+            "width": 216
           }
         ],
         "missingImages": [],
@@ -560,7 +496,7 @@
         "formFocused": true,
         "formInViewport": true,
         "scrollBeforeActivation": 2143,
-        "scrollAfterActivation": 378,
+        "scrollAfterActivation": 306,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,

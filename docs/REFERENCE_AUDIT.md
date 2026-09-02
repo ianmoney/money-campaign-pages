@@ -32,7 +32,7 @@ The overall vertical rhythm is intentionally spacious between provider logos and
 
 ## Hero and form observations
 
-- Hero background is a left-to-right purple progression close to royal blue `#3F00DE` into a darker purple, with translucent brand strokes.
+- Hero background follows the live Money.com.au health-insurance treatment: `linear-gradient(93deg, #3F00DE 21.51%, #2D009E 97.91%)`, with the approved M-only decorative background clipped into the lower-right edge.
 - Title uses Messina Sans Condensed Black in uppercase, about 72-76 CSS px at the reference width, approximately 84% line height and slightly negative tracking.
 - Supporting copy is about 18px. Chips are 12-13px, translucent, with green circular checks.
 - The form panel overlaps no following white section; it ends about 23px above the hero boundary.

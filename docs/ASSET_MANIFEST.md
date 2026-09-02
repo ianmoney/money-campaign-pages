@@ -6,6 +6,7 @@ All runtime assets are local under `public/assets/health-insurance/`. Provider a
 | --- | --- |
 | `brand/money-logo-indigo.svg` | `https://www.money.com.au/logo-primary-long-indigo.svg` |
 | `brand/money-logo-white.svg` | `https://www.money.com.au/logo-primary-long-white.svg` |
+| `brand/money-m-background.svg` | Local copy of the approved M-only decorative background used by Money.com.au's health insurance page (`/images/dsl/LogoMoney-dark.svg`); the supplied `money vector.svg` wordmark is not used so the background contains no text. |
 | `fonts/messina-sans-regular.woff2` | Money.com.au Next static media |
 | `fonts/messina-sans-semibold.woff2` | Money.com.au Next static media |
 | `fonts/messina-sans-black.woff2` | Money.com.au Next static media |

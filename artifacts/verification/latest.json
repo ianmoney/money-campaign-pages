@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "route": "/health-insurance",
   "baseURL": "http://127.0.0.1:3101/",
-  "startedAt": "2026-09-02T16:15:39.073Z",
-  "finishedAt": "2026-09-02T16:15:44.714Z",
+  "startedAt": "2026-09-02T16:23:16.478Z",
+  "finishedAt": "2026-09-02T16:23:22.070Z",
   "passed": true,
   "summary": {
     "viewportCount": 6,
@@ -38,7 +38,7 @@
         },
         "document": {
           "scrollWidth": 1440,
-          "scrollHeight": 2202
+          "scrollHeight": 2183
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -87,7 +87,7 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1202,
+        "scrollBeforeActivation": 1183,
         "scrollAfterActivation": 197,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
@@ -126,7 +126,7 @@
         },
         "document": {
           "scrollWidth": 1117,
-          "scrollHeight": 2202
+          "scrollHeight": 2183
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -175,7 +175,7 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1302,
+        "scrollBeforeActivation": 1283,
         "scrollAfterActivation": 247,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
@@ -214,7 +214,7 @@
         },
         "document": {
           "scrollWidth": 1024,
-          "scrollHeight": 2244
+          "scrollHeight": 2225
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -263,7 +263,7 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1344,
+        "scrollBeforeActivation": 1325,
         "scrollAfterActivation": 247,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
@@ -302,7 +302,7 @@
         },
         "document": {
           "scrollWidth": 768,
-          "scrollHeight": 2403
+          "scrollHeight": 2359
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -367,7 +367,7 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1379,
+        "scrollBeforeActivation": 1335,
         "scrollAfterActivation": 193,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
@@ -406,7 +406,7 @@
         },
         "document": {
           "scrollWidth": 390,
-          "scrollHeight": 3690
+          "scrollHeight": 3646
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -463,8 +463,8 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 1993,
-        "scrollAfterActivation": 369,
+        "scrollBeforeActivation": 1971,
+        "scrollAfterActivation": 368,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,
@@ -502,7 +502,7 @@
         },
         "document": {
           "scrollWidth": 360,
-          "scrollHeight": 3896
+          "scrollHeight": 3852
         },
         "horizontalOverflow": false,
         "horizontalOverflowPixels": 0,
@@ -559,8 +559,8 @@
         "ctaActivatedByKeyboard": true,
         "formFocused": true,
         "formInViewport": true,
-        "scrollBeforeActivation": 2165,
-        "scrollAfterActivation": 379,
+        "scrollBeforeActivation": 2143,
+        "scrollAfterActivation": 378,
         "activeElement": "div",
         "activeElementId": "health-quote-form",
         "adjacentKeyboardTargetFound": true,

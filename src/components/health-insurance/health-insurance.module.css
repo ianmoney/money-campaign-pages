@@ -298,7 +298,7 @@
 }
 
 .providers {
-  width: min(100%, 1070px);
+  width: min(100%, 1000px);
   margin: 0 auto;
   padding: 68px 20px 0;
 }
@@ -437,19 +437,20 @@
 
 .compareButton {
   display: inline-flex;
-  width: min(304px, 100%);
-  min-height: 88px;
+  width: 128px;
+  min-height: 44px;
   margin-top: 14px;
   align-items: center;
   justify-content: center;
-  gap: 22px;
-  padding: 18px 28px;
+  gap: 5px;
+  padding: 11px 10px;
   border: 0;
-  border-radius: 48px;
+  border-radius: 999px;
   color: white;
   background: #4700ef;
   cursor: pointer;
-  font: 900 30px/1 "Money Messina", Helvetica, Arial, sans-serif;
+  font: 900 13px/1 "Money Messina", Helvetica, Arial, sans-serif;
+  white-space: nowrap;
 }
 
 .compareButton:hover {
@@ -457,11 +458,11 @@
 }
 
 .compareButtonChevron {
-  width: 18px;
-  height: 18px;
-  border-top: 4px solid currentColor;
-  border-left: 4px solid currentColor;
-  transform: rotate(45deg) translate(3px, 3px);
+  width: 11px;
+  height: 11px;
+  border-top: 3px solid currentColor;
+  border-left: 3px solid currentColor;
+  transform: rotate(45deg) translate(2px, 2px);
 }
 
 .compareButton:focus-visible,
@@ -715,9 +716,10 @@
   }
 
   .compareButton {
-    width: min(304px, 100%);
-    min-height: 88px;
-    font-size: 30px;
+    width: 128px;
+    min-height: 44px;
+    padding: 11px 14px;
+    font-size: 13px;
   }
 
   .footer {

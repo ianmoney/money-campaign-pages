@@ -4,6 +4,7 @@ import {
   LegalFooter,
   MinimalHeader,
 } from '@/components/health-insurance/HealthInsuranceLandingPage';
+import healthInsuranceStyles from '@/components/health-insurance/health-insurance.module.css';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
@@ -17,7 +18,7 @@ const comparisonHref = '/health-insurance?source=advertorial-health-cheaper-poli
 
 export default function CheaperPolicyTrapPage() {
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} ${healthInsuranceStyles.page}`}>
       <MinimalHeader />
 
       <article>

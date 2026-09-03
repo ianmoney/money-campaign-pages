@@ -1,9 +1,7 @@
+import Image from 'next/image';
 import type { Metadata } from 'next';
 import { FormPanel } from '@/components/health-insurance/FormPanel';
-import {
-  LegalFooter,
-  MinimalHeader,
-} from '@/components/health-insurance/HealthInsuranceLandingPage';
+import { LegalFooter } from '@/components/health-insurance/HealthInsuranceLandingPage';
 import healthInsuranceStyles from '@/components/health-insurance/health-insurance.module.css';
 import styles from './page.module.css';
 
@@ -17,7 +15,17 @@ export const metadata: Metadata = {
 export default function CheaperPolicyTrapPage() {
   return (
     <div className={`${styles.page} ${healthInsuranceStyles.page}`}>
-      <MinimalHeader />
+      <header className={styles.pageHeader}>
+        <a href="/health-insurance" className={styles.pageHeaderBrand} aria-label="Money.com.au">
+          <Image
+            src="/money-logo.svg"
+            alt="Money.com.au"
+            width={240}
+            height={28}
+            priority
+          />
+        </a>
+      </header>
 
       <article>
         <header className={styles.articleHero}>

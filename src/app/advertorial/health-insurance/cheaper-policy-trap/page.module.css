@@ -23,76 +23,19 @@
   color: var(--money-copy);
 }
 
-.siteHeader {
-  width: min(100%, 1120px);
-  height: 68px;
-  margin: 16px auto 0;
-  padding: 0 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #fff;
-  border: 1px solid #eeedf3;
-  border-radius: 16px 16px 0 0;
+.articleHero,
+.heroImage,
+.articleColumn,
+.example,
+.disclaimer,
+.summaryStrip,
+.quizColumn,
+.footer {
+  width: min(calc(100% - 48px), 700px);
+  margin-inline: auto;
 }
-
-.brand,
-.footerBrand {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--money-purple);
-  text-decoration: none;
-  font-size: 22px;
-  font-weight: 900;
-  letter-spacing: -0.06em;
-}
-
-.brandMark {
-  width: 25px;
-  height: 21px;
-  display: inline-block;
-  position: relative;
-}
-
-.brandMark::before,
-.brandMark::after,
-.brandMark span {
-  content: '';
-  position: absolute;
-  width: 8px;
-  background: var(--money-purple);
-  border-radius: 999px;
-  transform: rotate(-27deg);
-}
-
-.brandMark::before { height: 16px; left: 1px; top: 4px; }
-.brandMark span { height: 21px; left: 9px; top: 0; }
-.brandMark::after { height: 16px; left: 17px; top: 4px; }
-
-.nav {
-  display: flex;
-  gap: 28px;
-  align-items: center;
-  font-size: 12px;
-}
-
-.nav a {
-  color: #4d4a5e;
-  text-decoration: none;
-}
-
-.nav a:hover,
-.nav a:focus-visible,
-.activeNav {
-  color: var(--money-ink) !important;
-}
-
-.activeNav { font-weight: 800; }
 
 .articleHero {
-  width: min(calc(100% - 48px), 720px);
-  margin: 0 auto;
   padding: 56px 0 28px;
 }
 
@@ -149,21 +92,17 @@
 .avatar {
   width: 38px;
   height: 38px;
-  display: grid;
-  place-items: center;
+  display: block;
   flex: 0 0 auto;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  background: linear-gradient(145deg, #f6b985, #6a3c3c);
-  box-shadow: 0 0 0 1px #dad7e4;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 800;
+  padding: 8px;
+  border-radius: 10px;
+  background: #fff;
+  object-fit: contain;
 }
 
 .heroImage {
-  width: min(calc(100% - 48px), 960px);
-  margin: 0 auto 40px;
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 .heroImage img {
@@ -172,14 +111,6 @@
   display: block;
   border-radius: 17px;
   object-fit: cover;
-  box-shadow: 0 5px 20px rgba(24, 22, 53, 0.08);
-}
-
-.articleColumn,
-.example,
-.disclaimer {
-  width: min(calc(100% - 48px), 700px);
-  margin-inline: auto;
 }
 
 .articleColumn {
@@ -201,8 +132,8 @@
 .articleColumn h2:first-child { margin-top: 52px; }
 
 .summaryStrip {
-  width: min(calc(100% - 48px), 760px);
-  margin: 38px auto 42px;
+  margin-top: 38px;
+  margin-bottom: 42px;
   padding: 20px 22px;
   display: flex;
   align-items: center;
@@ -220,7 +151,7 @@
 }
 
 .summaryStrip p {
-  max-width: 520px;
+  max-width: 500px;
   margin: 4px 0 0;
   color: #4e4c63;
   font-size: 14px;
@@ -247,7 +178,6 @@
 }
 
 .plainList li { margin: 10px 0; padding-left: 4px; }
-
 .plainList strong { color: var(--money-ink); }
 
 .example {
@@ -305,14 +235,37 @@
 }
 
 .quizColumn {
-  width: min(calc(100% - 48px), 760px);
-  margin-inline: auto;
   text-align: center;
 }
 
 .quizColumn .eyebrow { margin-bottom: 10px; }
 .quizColumn h2 { margin: 0 0 12px; }
-.quizColumn > p:not(.eyebrow):not(.panelNote) { max-width: 610px; margin: 0 auto; color: #5b596d; font-size: 16px; line-height: 1.55; }
+.quizColumn > p:not(.eyebrow):not(.panelNote) {
+  max-width: 610px;
+  margin: 0 auto;
+  color: #5b596d;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.quizBenefits {
+  margin: 18px auto 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  list-style: none;
+  color: var(--money-ink);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.quizBenefits li::before {
+  content: '✓';
+  margin-right: 6px;
+  color: #16883d;
+}
 
 .quizFrame {
   width: 100%;
@@ -325,11 +278,8 @@
   box-shadow: 0 10px 26px rgba(67, 0, 216, 0.06);
 }
 
-.quizFallback { margin: 12px 0 0; font-size: 13px; }
-.quizFallback a { color: var(--money-purple); font-weight: 800; }
-
 .panelNote {
-  max-width: 710px;
+  max-width: 700px;
   margin: 13px auto 0;
   color: #777489;
   font-size: 11px;
@@ -358,55 +308,39 @@
 .faq details p { margin: 0; padding: 0 38px 18px 0; color: #69677a; font-size: 15px; line-height: 1.55; }
 
 .textCta:focus-visible,
-.quizFallback a:focus-visible,
-.nav a:focus-visible,
-.brand:focus-visible,
-.footerBrand:focus-visible,
 .faq summary:focus-visible {
   outline: 3px solid #85e8ff;
   outline-offset: 3px;
 }
 
-.footer {
-  width: min(calc(100% - 48px), 760px);
-  margin: 0 auto;
-  padding: 32px 0 38px;
-  text-align: center;
-  color: #777489;
-  font-size: 11px;
-  line-height: 1.5;
-}
-
-.footer p { margin: 0; }
-.footerBrand { margin-top: 13px; font-size: 26px; }
-
 @media (max-width: 760px) {
   .page { background: #fff; }
-  .siteHeader { width: 100%; height: 58px; margin: 0; padding: 0 17px; border: 0; border-bottom: 1px solid var(--money-line); border-radius: 0; }
-  .nav { display: none; }
-  .brand { font-size: 20px; }
-  .articleHero { width: calc(100% - 32px); padding: 35px 0 23px; }
-  .articleHero h1 { font-size: clamp(42px, 11vw, 55px); }
-  .dek { margin-top: 17px; font-size: 18px; }
-  .heroImage { width: calc(100% - 32px); margin-bottom: 30px; }
-  .heroImage img { border-radius: 13px; }
+  .articleHero,
+  .heroImage,
   .articleColumn,
   .example,
   .disclaimer,
+  .summaryStrip,
   .quizColumn,
   .footer { width: calc(100% - 32px); }
+  .articleHero { padding: 35px 0 23px; }
+  .articleHero h1 { font-size: clamp(42px, 11vw, 55px); }
+  .dek { margin-top: 17px; font-size: 18px; }
+  .heroImage { margin-bottom: 30px; }
+  .heroImage img { border-radius: 13px; }
   .articleColumn { font-size: 17px; line-height: 1.68; }
   .articleColumn h2,
   .example h2,
   .quizColumn h2 { margin-top: 43px; font-size: 29px; }
   .articleColumn h2:first-child { margin-top: 39px; }
-  .summaryStrip { width: calc(100% - 32px); display: block; margin: 28px auto 34px; padding: 17px; }
+  .summaryStrip { display: block; margin-top: 28px; margin-bottom: 34px; padding: 17px; }
   .summaryStrip p { font-size: 14px; }
   .textCta { width: 100%; margin-top: 13px; justify-content: center; }
   .example { margin-top: 42px; font-size: 17px; line-height: 1.68; }
   .example h3 { margin-top: 31px; font-size: 21px; }
   .quizSection { margin-top: 45px; padding: 40px 0 42px; }
   .quizColumn h2 { margin-top: 0; }
+  .quizBenefits { display: grid; gap: 7px; text-align: left; width: max-content; }
   .quizFrame { min-height: 760px; margin-top: 24px; }
   .panelNote { font-size: 11px; }
   .faq { padding-bottom: 38px; }

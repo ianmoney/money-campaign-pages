@@ -12,7 +12,7 @@ import styles from "./health-insurance.module.css";
 
 const ASSET_ROOT = "/assets/health-insurance";
 
-function MinimalHeader() {
+export function MinimalHeader() {
   return (
     <header className={styles.header}>
       <div className={styles.headerInner}>
@@ -53,7 +53,7 @@ function Hero() {
         <ul className={styles.benefits} aria-label="Comparison benefits">
           {healthInsuranceContent.benefits.map((benefit) => (
             <li key={benefit}>
-              <span aria-hidden="true">✓</span>
+              <span aria-hidden="true">â</span>
               {benefit}
             </li>
           ))}
@@ -92,7 +92,7 @@ function TrustRibbon() {
           <strong>Excellent</strong> 4.8 out of 5
         </span>
         <span className={styles.trustpilot}>
-          <b aria-hidden="true">★</b> Trustpilot
+          <b aria-hidden="true">â</b> Trustpilot
         </span>
       </div>
       <span className={styles.ribbonDivider} aria-hidden="true" />
@@ -159,7 +159,7 @@ function Testimonial() {
   );
 }
 
-function LegalFooter() {
+export function LegalFooter() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerInner}>

@@ -79,7 +79,7 @@
 .hero {
   position: relative;
   min-height: 850px;
-  overflow: hidden;
+  overflow: clip;
   color: white;
   background: linear-gradient(93deg, #3f00de 21.51%, #2d009e 97.91%);
 }

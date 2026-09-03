@@ -6,7 +6,7 @@ import healthInsuranceStyles from '@/components/health-insurance/health-insuranc
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-  title: 'The cheaper health insurance trap | Money.com.au',
+  title: 'The cheaper health premium trap explained (and how to avoid it) | Money.com.au',
   description:
     'A practical guide to comparing health insurance premiums, excesses and Extras based on how you are likely to use your cover.',
   robots: 'noindex,follow',
@@ -30,7 +30,7 @@ export default function CheaperPolicyTrapPage() {
       <article>
         <header className={styles.articleHero}>
           <p className={styles.eyebrow}>Health insurance guide</p>
-          <h1>The cheaper health insurance trap (and how to avoid it)</h1>
+          <h1>The cheaper health premium trap explained (and how to avoid it)</h1>
           <p className={styles.dek}>
             A lower monthly premium can look great. But it might not be the cheapest option once you actually use your cover.
           </p>

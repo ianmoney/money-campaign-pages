@@ -23,6 +23,25 @@
   color: var(--money-copy);
 }
 
+.pageHeader {
+  width: min(calc(100% - 48px), 700px);
+  margin: 0 auto;
+  padding: 18px 0 8px;
+}
+
+.pageHeaderBrand {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.pageHeaderBrand img {
+  width: 240px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .articleHero,
 .heroImage,
 .articleColumn,
@@ -110,7 +129,6 @@
   height: auto;
   display: block;
   border-radius: 17px;
-  object-fit: cover;
 }
 
 .articleColumn {
@@ -307,6 +325,7 @@
 .faq details[open] summary::after { content: '−'; }
 .faq details p { margin: 0; padding: 0 38px 18px 0; color: #69677a; font-size: 15px; line-height: 1.55; }
 
+.pageHeaderBrand:focus-visible,
 .textCta:focus-visible,
 .faq summary:focus-visible {
   outline: 3px solid #85e8ff;
@@ -315,6 +334,7 @@
 
 @media (max-width: 760px) {
   .page { background: #fff; }
+  .pageHeader,
   .articleHero,
   .heroImage,
   .articleColumn,
@@ -323,6 +343,8 @@
   .summaryStrip,
   .quizColumn,
   .footer { width: calc(100% - 32px); }
+  .pageHeader { padding: 14px 0 4px; }
+  .pageHeaderBrand img { width: 210px; }
   .articleHero { padding: 35px 0 23px; }
   .articleHero h1 { font-size: clamp(42px, 11vw, 55px); }
   .dek { margin-top: 17px; font-size: 18px; }

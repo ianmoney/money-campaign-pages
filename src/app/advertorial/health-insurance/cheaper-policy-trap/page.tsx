@@ -14,8 +14,6 @@ export const metadata: Metadata = {
   robots: 'noindex,follow',
 };
 
-const comparisonHref = '/health-insurance?source=advertorial-health-cheaper-policy-trap';
-
 export default function CheaperPolicyTrapPage() {
   return (
     <div className={`${styles.page} ${healthInsuranceStyles.page}`}>
@@ -29,7 +27,7 @@ export default function CheaperPolicyTrapPage() {
             A lower monthly premium can look great. But it might not be the cheapest option once you actually use your cover.
           </p>
           <div className={styles.byline}>
-            <span className={styles.avatar} aria-hidden="true">M</span>
+            <img className={styles.avatar} src="/money-icon.svg" alt="" aria-hidden="true" />
             <span>
               <strong>By the Money.com.au team</strong>
               <small>5 min read</small>
@@ -39,8 +37,8 @@ export default function CheaperPolicyTrapPage() {
 
         <figure className={styles.heroImage}>
           <img
-            src="/advertorial/health-insurance/cheaper-policy-trap/hero-family.png"
-            alt="A family walking together along an Australian beach at sunset"
+            src="/advertorial/health-insurance/cheaper-policy-trap/hero-family.webp"
+            alt="An older couple sitting on a couch with two children"
           />
         </figure>
 
@@ -49,7 +47,7 @@ export default function CheaperPolicyTrapPage() {
           <p>If one policy is $20 or $30 less each month, that looks like a pretty straightforward saving. And if you barely use your cover, it might genuinely work out cheaper.</p>
           <p>But the premium only tells you what it costs to keep the policy. It doesn&apos;t tell you much about what happens when you actually use it.</p>
           <p>And that&apos;s where things can change.</p>
-          <p>Many people go years without a hospital visit. But they might still use Extras for the everyday stuff — a dental check-up, new glasses, a few physio appointments or a filling.</p>
+          <p>Many people go years without a hospital visit. But they might still use Extras for the everyday stuff: a dental check-up, new glasses, a few physio appointments or a filling.</p>
           <p>Two policies can look similar on the surface and still give you very different value once you start claiming.</p>
         </div>
 
@@ -68,7 +66,7 @@ export default function CheaperPolicyTrapPage() {
           <p>But once you add a few physio visits, glasses, dental or a hospital admission, some of that premium saving can disappear pretty quickly.</p>
           <p>That doesn&apos;t mean the more expensive policy is automatically better. It isn&apos;t.</p>
           <p>It just means the better question isn&apos;t only <strong>“Which policy costs less each month?”</strong></p>
-          <p>It&apos;s also <strong>“What am I likely to pay — and get back — based on how I actually use my cover?”</strong></p>
+          <p>It&apos;s also <strong>“What am I likely to pay and get back based on how I actually use my cover?”</strong></p>
 
           <h2>A simpler way to think about it</h2>
           <p>You don&apos;t need a spreadsheet. Start with three questions:</p>
@@ -83,7 +81,7 @@ export default function CheaperPolicyTrapPage() {
           <p>Hospital cover gets most of the attention because the bills can be big. But many people go years without a hospital visit.</p>
           <p>Extras are different. You might use them several times in a normal year.</p>
           <p>Think dental, optical and physio. The amount you get back can vary a lot between policies, and so can the annual limits.</p>
-          <p>If you already know you&apos;re likely to get new glasses, see a physio or go to the dentist, it&apos;s worth checking what each policy would actually give you back — not just whether the service appears in the brochure.</p>
+          <p>If you already know you&apos;re likely to get new glasses, see a physio or go to the dentist, it&apos;s worth checking what each policy would actually give you back, not just whether the service appears in the brochure.</p>
           <p>A cheaper Extras policy might give you less back per visit, have lower annual limits or come with different rules around the services you use. A slightly more expensive policy might pay more back on those same things.</p>
           <p>That&apos;s why the cheapest monthly premium can sometimes be a pretty rough shortcut for working out what&apos;s actually cheaper for you.</p>
         </div>
@@ -141,12 +139,16 @@ export default function CheaperPolicyTrapPage() {
         <section className={styles.quizSection} id="compare" aria-labelledby="quiz-title" tabIndex={-1}>
           <div className={styles.quizColumn}>
             <p className={styles.eyebrow}>Compare your options</p>
-            <h2 id="quiz-title">See how your current cover compares</h2>
-            <p>You&apos;ve seen why the cheapest premium isn&apos;t always the whole story. Answer a few simple questions to compare health insurance options for your situation.</p>
+            <h2 id="quiz-title">See how much you could save on your health insurance</h2>
+            <p>Answer a few simple questions to compare personalised prices and cover options across 240 policies from 11+ providers.</p>
+            <ul className={styles.quizBenefits} aria-label="Health insurance comparison benefits">
+              <li>100% Aussie staff</li>
+              <li>No markups</li>
+              <li>Obligation free</li>
+            </ul>
             <div className={styles.quizFrame}>
               <FormPanel />
             </div>
-            <p className={styles.quizFallback}><a href={comparisonHref}>Open the comparison in a new page <span aria-hidden="true">→</span></a></p>
             <p className={styles.panelNote}>Money.com.au doesn&apos;t compare every health insurer or every policy available in Australia. Availability depends on the comparison panel and your circumstances. Policy terms, limits, restrictions and eligibility apply.</p>
           </div>
         </section>

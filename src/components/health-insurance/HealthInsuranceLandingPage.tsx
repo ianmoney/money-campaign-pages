@@ -53,7 +53,7 @@ function Hero() {
         <ul className={styles.benefits} aria-label="Comparison benefits">
           {healthInsuranceContent.benefits.map((benefit) => (
             <li key={benefit}>
-              <span aria-hidden="true">â</span>
+              <span aria-hidden="true">✓</span>
               {benefit}
             </li>
           ))}
@@ -92,7 +92,7 @@ function TrustRibbon() {
           <strong>Excellent</strong> 4.8 out of 5
         </span>
         <span className={styles.trustpilot}>
-          <b aria-hidden="true">â</b> Trustpilot
+          <b aria-hidden="true">★</b> Trustpilot
         </span>
       </div>
       <span className={styles.ribbonDivider} aria-hidden="true" />

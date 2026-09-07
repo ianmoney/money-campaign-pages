@@ -1,0 +1,38 @@
+.formPanel {
+  min-height: 720px;
+  background: #fff;
+}
+
+.embed,
+.iframe {
+  width: 100%;
+  min-width: 0;
+}
+
+.embed {
+  min-height: 720px;
+  background: #fff;
+}
+
+.iframe {
+  display: block;
+  height: 720px;
+  border: 0;
+  background: #fff;
+}
+
+.whiteContent {
+  min-height: 145px;
+  padding-top: 1px;
+}
+
+@media (max-width: 767px) {
+  .formPanel,
+  .embed {
+    min-height: 760px;
+  }
+
+  .iframe {
+    height: 760px;
+  }
+}

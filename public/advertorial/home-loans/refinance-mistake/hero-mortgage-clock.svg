@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+<title id="title">Mortgage clock reset illustration</title><desc id="desc">Editorial illustration showing a home, mortgage document and a clock resetting after refinance.</desc>
+<rect width="1400" height="760" rx="34" fill="#eefbff"/>
+<circle cx="1120" cy="175" r="185" fill="#d9f7ff"/>
+<circle cx="245" cy="610" r="175" fill="#f0eaff"/>
+<rect x="165" y="135" width="590" height="445" rx="32" fill="#fff" stroke="#ded8f5" stroke-width="4"/>
+<rect x="215" y="195" width="330" height="24" rx="12" fill="#3f00de"/>
+<rect x="215" y="252" width="420" height="16" rx="8" fill="#cbc6dc"/>
+<rect x="215" y="292" width="340" height="16" rx="8" fill="#e2dfeb"/>
+<rect x="215" y="332" width="390" height="16" rx="8" fill="#e2dfeb"/>
+<rect x="215" y="405" width="210" height="95" rx="18" fill="#f4f0ff"/>
+<text x="248" y="446" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#12133f">NEW TERM</text>
+<text x="248" y="480" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="900" fill="#3f00de">30 YEARS</text>
+<path d="M850 460 L850 575 L1125 575 L1125 460 Z" fill="#3f00de"/>
+<path d="M805 460 L987 315 L1170 460 Z" fill="#3f00de"/>
+<rect x="960" y="485" width="70" height="90" fill="#85e8ff"/>
+<circle cx="1035" cy="245" r="142" fill="#fff" stroke="#12133f" stroke-width="10"/>
+<circle cx="1035" cy="245" r="10" fill="#12133f"/>
+<path d="M1035 245 L1035 160" stroke="#12133f" stroke-width="12" stroke-linecap="round"/>
+<path d="M1035 245 L1105 290" stroke="#12133f" stroke-width="12" stroke-linecap="round"/>
+<path d="M1175 180 C1260 220 1270 330 1195 390" fill="none" stroke="#3f00de" stroke-width="16" stroke-linecap="round"/>
+<path d="M1192 390 L1200 342 L1243 374 Z" fill="#3f00de"/>
+<text x="846" y="676" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="900" fill="#12133f">A lower repayment can reset the clock.</text>
+</svg>

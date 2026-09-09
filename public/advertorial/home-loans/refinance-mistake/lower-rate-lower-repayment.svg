@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430" role="img" aria-labelledby="title desc">
+<title id="title">Lower rate and repayment do not guarantee lower total interest</title><desc id="desc">Three large checks show lower rate, lower repayment and a warning that total interest may still be higher.</desc>
+<rect width="1400" height="430" rx="30" fill="#12133f"/>
+<rect x="90" y="80" width="360" height="270" rx="24" fill="#fff"/>
+<rect x="520" y="80" width="360" height="270" rx="24" fill="#fff"/>
+<rect x="950" y="80" width="360" height="270" rx="24" fill="#fff"/>
+<circle cx="270" cy="170" r="42" fill="#dcf8e7"/>
+<path d="M248 171 L264 188 L295 151" fill="none" stroke="#16883d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="700" cy="170" r="42" fill="#dcf8e7"/>
+<path d="M678 171 L694 188 L725 151" fill="none" stroke="#16883d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1130" cy="170" r="42" fill="#ffe8ec"/>
+<path d="M1107 147 L1153 193 M1153 147 L1107 193" stroke="#c73b52" stroke-width="12" stroke-linecap="round"/>
+<text x="270" y="255" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="900" fill="#12133f">LOWER RATE</text>
+<text x="700" y="255" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="900" fill="#12133f">LOWER REPAYMENT</text>
+<text x="1130" y="245" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="900" fill="#12133f">LOWER TOTAL</text>
+<text x="1130" y="278" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="900" fill="#12133f">INTEREST?</text>
+<text x="700" y="395" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#85e8ff">You need all three parts of the calculation.</text>
+</svg>

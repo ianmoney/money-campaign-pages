@@ -37,11 +37,12 @@ export default function RefinanceMistakePage() {
 
           <figure className={styles.heroImage}>
             <Image
-              src="/advertorial/home-loans/refinance-mistake/hero-home.webp"
+              src="/advertorial/home-loans/refinance-mistake/hero-home.jpg"
               alt="Covered outdoor living area of an Australian home overlooking trees and a swimming pool"
               width={700}
               height={467}
               priority
+              unoptimized
               sizes="(max-width: 760px) calc(100vw - 32px), 700px"
             />
           </figure>

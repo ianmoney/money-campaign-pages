@@ -51,24 +51,29 @@ export default function RefinanceMistakePage() {
           </figure>
 
           <div className={styles.articleColumn}>
-            <p>Refinancing usually feels like simple maths: get a lower interest rate, lower your monthly repayment, and save money.</p>
-            <p>But a cheaper monthly repayment does not always mean a cheaper mortgage.</p>
-            <p>Yet 47% of Australian refinancers fall into an expensive trap without realising it. Another 8% only discover what happened after the contracts are signed.</p>
-            <p>The trap isn’t the lower interest rate.</p>
-            <p><strong>It’s the clock.</strong></p>
+            <p>Refinancing seems simple on paper. Get a lower rate, pay less each month and get more money in your back pocket.</p>
+            <p>But a cheaper monthly repayment might actually cost you more in the long run.</p>
+            <p>47% of Australian refinancers make this mistake, most without even realising. Before you get another refinance quote, make sure you don’t overlook this.</p>
+
+            <aside className={styles.proMove} aria-labelledby="read-summary-title">
+              <p id="read-summary-title"><strong>No time to read?</strong></p>
+              <p>Refinancing to a lower rate can reduce your monthly repayment, but resetting your loan back to 30 years can add years of extra interest.</p>
+              <p>In our $600,000 example, resetting a 25-year remaining term back to 30 years cuts the repayment by $278 a month, but adds $121,067 in total interest.</p>
+              <p>Before refinancing, compare the loan term and total cost, not just the new monthly repayment.</p>
+              <p>
+                <a className={styles.primaryCta} href={compareUrl}>
+                  [ Calculate Your Real Lifetime Savings Across 40+ Lenders → ]
+                </a>
+              </p>
+            </aside>
 
             <h2>The refinance trap most people miss</h2>
             <p>Imagine you took out a 30-year home loan five years ago.</p>
             <p>You have done five years of repayments and now have <strong>25 years remaining</strong>.</p>
             <p>You find a better interest rate and decide to refinance.</p>
             <p>So far, so good.</p>
-            <p>But your new loan is set up over a fresh <strong>30-year term</strong>.</p>
-            <p>You have just added another five years back onto your mortgage.</p>
-            <p>Your new monthly repayment will probably look attractive because two things have happened:</p>
-            <p><strong>1. You got a lower rate.</strong></p>
-            <p><strong>2. Your remaining debt has been stretched over more years.</strong></p>
-            <p>Most people notice the first one.</p>
-            <p>The second is where the hidden cost can appear.</p>
+            <p>Your broker comes back with a lower payment, but it’s stretched out over a fresh <strong>30-year term</strong>.</p>
+            <p>You’d likely save hundreds a month, but in reality, you’ve just added another five years back onto your mortgage.</p>
 
             <h2>How a “cheaper” refinance can cost more</h2>
             <p>Here is what happens with a <strong>$600,000 loan balance at 5.50% p.a.</strong> when you compare keeping the remaining 25-year term with resetting the loan back to 30 years.</p>
@@ -125,33 +130,11 @@ export default function RefinanceMistakePage() {
             <p>Same interest rate.</p>
             <p>The major difference is how long you take to repay it.</p>
 
-            <h2>The $121,000 detail most refinancers don’t notice</h2>
+            <h2>The $121,000 detail most Aussie’s don’t notice</h2>
             <p>Saving $278 a month feels immediate.</p>
-            <p>The extra interest does not.</p>
-            <p>It is spread across years of future repayments, which makes it easy to overlook when you are comparing refinance offers today.</p>
-            <p>That is why monthly repayments can be misleading when viewed on their own.</p>
-            <p>A refinance can give you:</p>
-            <p><strong>a lower interest rate</strong></p>
-            <p>and</p>
-            <p><strong>a lower monthly repayment</strong></p>
-            <p>while still costing substantially more over the full loan term.</p>
-            <p>The lower rate is not the problem.</p>
-            <p>The lower rate works in your favour.</p>
-            <p>The problem is extending the debt for another five years without properly accounting for what those extra years cost.</p>
+            <p>But when it’s spread out over an extra five years, the difference can be misleading.</p>
+            <p>Due to compounding interest, extending the debt for another five years adds up to hundreds of thousands over the life of your mortgage.</p>
             <p><strong>A lower repayment and a cheaper loan are not always the same thing.</strong></p>
-
-            <h2>Why the 30-year reset happens so easily</h2>
-            <p>When people refinance, the rate naturally gets most of the attention.</p>
-            <p>Is it lower than my current rate?</p>
-            <p>How much will I save each month?</p>
-            <p>What will my new repayment be?</p>
-            <p>Those are sensible questions.</p>
-            <p>But the loan term can quietly sit in the background.</p>
-            <p>If you currently have 25 years remaining and the refinance quote is based on a new 30-year loan, you are not comparing like with like.</p>
-            <p>Your rate has changed.</p>
-            <p>But so has your repayment timeline.</p>
-            <p>That does not automatically make the refinance bad.</p>
-            <p>It simply means you need to look at both changes before deciding how much you are really saving.</p>
 
             <h2>Is resetting to 30 years always a mistake?</h2>
             <p>No.</p>
@@ -162,15 +145,8 @@ export default function RefinanceMistakePage() {
             <p>There is nothing inherently wrong with choosing a longer term when you understand the trade-off.</p>
             <p>The danger is doing it <strong>accidentally</strong>.</p>
             <p>If you deliberately choose a 30-year term because flexibility matters to you, that is very different from assuming a $278 lower repayment means the new loan is automatically $278 a month cheaper.</p>
-
-            <h2>A lower minimum repayment doesn’t mean you have to pay less</h2>
-            <p>There is another important distinction.</p>
-            <p>A 30-year loan term sets the minimum required repayment.</p>
-            <p>It does not necessarily mean you have to take the full 30 years to repay the loan.</p>
             <p>Depending on your loan terms, you may be able to make additional repayments or continue paying an amount similar to your old repayment when your budget allows.</p>
             <p>That can give you the flexibility of a lower required repayment without necessarily following the minimum repayment schedule for the entire 30 years.</p>
-            <p>But the outcome will depend on your loan, rate, fees, repayment behaviour and features such as an offset or redraw facility.</p>
-            <p>That is why the loan structure matters just as much as the number shown next to “monthly repayment”.</p>
 
             <h2>4 things to check before you refinance</h2>
 
@@ -180,36 +156,26 @@ export default function RefinanceMistakePage() {
             <p>That makes it much easier to separate the savings from the lower rate from the apparent savings created by extending the loan.</p>
 
             <h3>2. The rate, comparison rate and fees</h3>
-            <p>Do not look at the headline interest rate in isolation.</p>
+            <p>Don’t look at the headline interest rate in isolation.</p>
             <p>Check the advertised rate, comparison rate and the fees that apply to the loan.</p>
             <p>A lower advertised rate can still come with costs that affect the value of switching.</p>
 
             <h3>3. Offset, redraw and repayment features</h3>
             <p>Loan features can change the real outcome too.</p>
             <p>An offset account, redraw facility or ability to make additional repayments may affect how much interest you ultimately pay depending on how you use them.</p>
-            <p>Compare the features you will genuinely use, not just the headline rate.</p>
+            <p>Compare the features you will genuinely use.</p>
 
             <h3>4. Your break-even point</h3>
             <p>Refinancing can involve discharge fees, application costs and other switching expenses.</p>
             <p>Work out how long it may take for the benefits of refinancing to outweigh those costs.</p>
             <p>A lower rate is much more useful when you stay in the new loan long enough to benefit from it.</p>
 
-            <h2>Before you celebrate the lower repayment, check the loan clock</h2>
-            <p>Most refinancers look for a lower interest rate.</p>
-            <p>They should.</p>
-            <p>But the interest rate is only one number.</p>
-            <p>If refinancing changes both your rate <strong>and the number of years you will be repaying the debt</strong>, compare both before deciding whether the new loan is genuinely cheaper.</p>
-            <p>The number to focus on is not simply:</p>
-            <p><strong>“What will my repayment be next month?”</strong></p>
-            <p>It is also:</p>
-            <p><strong>“What could this loan cost me over the time it takes to repay it?”</strong></p>
-            <p>A lower rate can save you money.</p>
-            <p>Just make sure resetting the clock does not quietly give those savings back.</p>
-
             <section className={styles.ctaWrap} aria-labelledby="refinance-cta-title">
               <h2 id="refinance-cta-title">See what your refinance could actually look like</h2>
-              <p>Compare home loan options across <strong>40+ lenders</strong> and look beyond the headline rate. Check rates, repayments and loan structures before deciding whether refinancing makes sense for you.</p>
-              <a className={styles.primaryCta} href={compareUrl}>Compare refinance options</a>
+              <p>I hope you can now understand that if refinancing changes both your rate <strong>and the number of years you will be repaying the debt</strong>, it’s best to see what the total cost will be over the life of your loan.</p>
+              <p>And make sure resetting the clock does not quietly give those savings back.</p>
+              <p>A lower rate should not mean staying in debt for more years. Compare loan options matched to your actual timeline, not just the lender's default settings.</p>
+              <a className={styles.primaryCta} href={compareUrl}>[ Calculate Your Real Lifetime Savings Across 40+ Lenders → ]</a>
               <p className={styles.ctaSupport}><em>It only takes a few minutes to start comparing.</em></p>
             </section>
           </div>

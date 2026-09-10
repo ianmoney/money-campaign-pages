@@ -62,7 +62,7 @@ export default function RefinanceMistakePage() {
               <p>Before refinancing, compare the loan term and total cost, not just the new monthly repayment.</p>
               <p>
                 <a className={styles.primaryCta} href={compareUrl}>
-                  [ Calculate Your Real Lifetime Savings Across 40+ Lenders → ]
+                  Calculate Your Real Lifetime Savings Across 40+ Lenders →
                 </a>
               </p>
             </aside>
@@ -175,7 +175,7 @@ export default function RefinanceMistakePage() {
               <p>I hope you can now understand that if refinancing changes both your rate <strong>and the number of years you will be repaying the debt</strong>, it’s best to see what the total cost will be over the life of your loan.</p>
               <p>And make sure resetting the clock does not quietly give those savings back.</p>
               <p>A lower rate should not mean staying in debt for more years. Compare loan options matched to your actual timeline, not just the lender's default settings.</p>
-              <a className={styles.primaryCta} href={compareUrl}>[ Calculate Your Real Lifetime Savings Across 40+ Lenders → ]</a>
+              <a className={styles.primaryCta} href={compareUrl}>Calculate Your Real Lifetime Savings Across 40+ Lenders →</a>
               <p className={styles.ctaSupport}><em>It only takes a few minutes to start comparing.</em></p>
             </section>
           </div>

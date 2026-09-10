@@ -39,8 +39,8 @@ export default function RefinanceMistakePage() {
             <Image
               src="/advertorial/home-loans/refinance-mistake/hero-home.webp"
               alt="Covered outdoor living area of an Australian home overlooking trees and a swimming pool"
-              width=700
-              height=467
+              width={700}
+              height={467}
               priority
               sizes="(max-width: 760px) calc(100vw - 32px), 700px"
             />

@@ -150,7 +150,7 @@ export default function RefinanceMistakePage() {
 
             <h3>1. Your remaining loan term</h3>
             <p>Start with how many years you actually have left.</p>
-            <p>If you have 23 years remaining, ask to see what the refinance looks like over 23 years as well as 30.</p>
+            <p>If you’ve got 23 years remaining, ask to see what the refinance looks like over 23 years as well as 30.</p>
             <p>That makes it much easier to separate the savings from the lower rate from the apparent savings created by extending the loan.</p>
 
             <h3>2. The rate, comparison rate and fees</h3>

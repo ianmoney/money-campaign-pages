@@ -58,7 +58,6 @@ export default function RefinanceMistakePage() {
             <aside className={styles.proMove} aria-labelledby="read-summary-title">
               <p id="read-summary-title"><strong>No time to read?</strong></p>
               <p>Refinancing to a lower rate can reduce your monthly repayment, but resetting your loan back to 30 years can add years of extra interest.</p>
-              <p></p>
               <p>Before refinancing, compare the loan term and total cost, not just the new monthly repayment.</p>
               <p>
                 <a className={styles.primaryCta} href={compareUrl}>
